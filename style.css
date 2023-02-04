@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.linksnav{
+    padding: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.linksnav:hover{
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.imgtech{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+.sejabemvindo{
+    background-color: #333333;
+    height: 200px;
+    color: #ffffff;
+}
+
+.sejabemvindo h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2.5rem;
+}
+
+.sejabemvindo p{
+    max-width: 800px;
+    min-width: 350px;
+    margin: auto;
+    padding-top: 30px;
+    font-size: 1.3rem;
+}
+
+.divpai-h1{
+    display: block;
+    text-align: center;
+    padding-top: 25px;
+    color: #333333;
+}
+
+.divsdasimgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+.divcriacaosite img{
+    width: 100px;
+}
+
+.divcriacaosite-imgh2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.096);
+}
+
+.divcriacaosite-imgh2 h2{
+    transform: translateX(-80%);
+}
+
+.divcriacaosite p{
+    padding-top: 25px;
+    max-width: 350px;
+}
+
+.divhospedagem img{
+    width: 171px;
+}
+
+.divhospedagem-imgh2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.096);
+}
+
+.divhospedagem-imgh2 h2{
+    transform: translateX(-30%);
+}
+
+.divhospedagem p{
+    padding-top: 25px;
+    max-width: 350px;
+}
+
+.divmanutencao img{
+    width: 100px;
+}
+
+.divmanutencao-imgh2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.096);
+}
+
+.divmanutencao-imgh2 h2{
+    transform: translateX(-30%);
+}
+
+.divmanutencao p{
+    max-width: 350px;
+    padding-top: 25px;
+}
+
+.div5setor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #333333;
+    height: 600px;
+    padding: 70px;
+
+}
+
+.divembaixo{
+    display: block;
+    width: 50%;
+}
+
+.diventreemcontato{
+    color: #ffffff;
+    padding-bottom: 30px;
+    font-size: 1.6rem;
+}
+
+.divinputs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 80%;
+}
+
+.inputs{
+    padding: 15px;
+    border: 0;
+    background-color: #EEEEEE;
+}
+
+.inputmensagem{
+    padding: 15px;
+    padding-bottom: 100px;
+    background-color: #EEEEEE;
+    border: 0;
+}
+
+.buttonenviar{
+    margin-top: 30px;
+    padding: 15px;
+    width: 80%;
+    background-color: #404040;
+    border: 0;
+    color: #ffffff;
+}
+
+.buttonenviar:hover{
+    cursor: pointer;
+}
+
+.divlocalizacao img{
+    width: 500px;
+}
+
+.divlocalizacao-h1{
+    color: #ffffff;
+    padding-bottom: 30px;
+    font-size: 1.6rem;
+}
+
+footer{
+    background-color: #555555;
+}
+
+.div-logo-footer{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.footer-localizacao{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.footer-localizacao img{
+    width: 80px;
+    padding-right: 10px;
+    border-right: 2px solid rgba(0, 0, 0, 0.122);
+}
+
+.footer-localizacao p{
+    font-size: 1.1rem;
+    transform: translateX(25px);
+}
+
+.footer-email{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.footer-email img{
+    width: 80px;
+    padding-right: 10px;
+    border-right: 2px solid rgba(0, 0, 0, 0.122);
+}
+
+.footer-email p{
+    font-size: 1.1rem;
+    transform: translateX(25px);
+}
+
+.footer-contato{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.footer-contato img{
+    width: 80px;
+    padding-right: 10px;
+    border-right: 2px solid rgba(0, 0, 0, 0.122);
+}
+
+.footer-contato p{
+    font-size: 1.1rem;
+    transform: translateX(25px);
+}
